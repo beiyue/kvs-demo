@@ -1,4 +1,4 @@
-## 步骤 4：效果演示
+## Lab4:播放演示
 
 git clone --recursive https://github.com/aws-samples/amazon-kinesis-video-streams-media-viewer.git
 
