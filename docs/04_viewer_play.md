@@ -8,7 +8,7 @@ https://github.com/aws-samples/amazon-kinesis-video-streams-media-viewer
 选择Download Zip 本地解压
 
 打开 <本地下载路径>/amazon-kinesis-video-streams-media-viewer/index.html
-
+```
 Streaming Protocol      选择HLS
 
 Player                  选择HLS.js
@@ -36,7 +36,7 @@ Discontinuity Mode          选择ALWAYS
 Display Fragment Timestamp      选择NEVER
 
 Display Fragment Number         选择NEVER
-
+```
 点击 **Start Playback**最终效果如下：
 
 ![](../md_images/kvs_play_0.png)
