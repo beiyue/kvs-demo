@@ -40,13 +40,13 @@ $ sudo vim kvs.sh
 
 cd ~/amazon-kinesis-video-streams-producer-sdk-cpp
 
-export GST_PLUGIN_PATH=\`pwd`/build
-export LD_LIBRARY_PATH=\`pwd`/open-source/local/lib
+export GST_PLUGIN_PATH=`pwd`/build
+export LD_LIBRARY_PATH=`pwd`/open-source/local/lib
 
 echo $GST_PLUGIN_PATH
 echo $LD_LIBRARY_PATH
 
-gst-launch-1.0 -v filesrc location=$1 ! qtdemux name=demux ! queue ! h264parse ! video/x-h264,stream-format=avc,alignment=au ! kvssink name=sink stream-name="MyStream" access-key=“\<ACCESS-KEY>” secret-key=“\<SECRET-KEY>” aws-region="ap-southeast-1"
+gst-launch-1.0 -v filesrc location=$1 ! qtdemux name=demux ! queue ! h264parse ! video/x-h264,stream-format=avc,alignment=au ! kvssink name=sink stream-name="MyStream" access-key=“<ACCESS-KEY>” secret-key=“<SECRET-KEY>” aws-region="ap-southeast-1"
 
 #备注: <ACCESS-KEY> 和 <SECRET-KEY> 请使用之前下载excel中的AK和SK
 ```
