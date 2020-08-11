@@ -2,10 +2,9 @@
 
 git clone --recursive https://github.com/aws-samples/amazon-kinesis-video-streams-media-viewer.git
 
-或访问
+或
 
-https://github.com/aws-samples/amazon-kinesis-video-streams-media-viewer 
-选择Download Zip 本地解压
+https://github.com/aws-samples/amazon-kinesis-video-streams-media-viewer 选择Download Zip 本地解压
 
 打开 <本地下载路径>/amazon-kinesis-video-streams-media-viewer/index.html
 ```
