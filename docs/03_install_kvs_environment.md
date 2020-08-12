@@ -57,6 +57,8 @@ $ exit
 ```
 ```
 $ scp -i "sgp-kvs-demo.pem" <客户本地录像文件路径> ubuntu@<EC2公网地址>:~/ 
+或
+$ sudo wget https://iot-kvs-demo.s3-ap-southeast-1.amazonaws.com/Snowflakes.mp4
 
 #Example：scp -i "sgp-kvs-demo.pem" ~/Downloads/Snowflakes.mp4 ubuntu@ec2-xx.ap-southeast-1.compute.amazonaws.com:~/
 
