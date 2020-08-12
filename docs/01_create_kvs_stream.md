@@ -7,8 +7,8 @@
 ![](../md_images/create_stream_1.png)
 
 输入视频流名称“MyStream”，点击“创建视频流”   
-###### 备注：实验部分多人共享同一账号，视频流名称不要相同以示区分。
 ![](../md_images/create_stream_2.png)
+###### 备注：实验部分多人共享同一账号，视频流名称不要相同以示区分。
 
 新建MyStream的视频流信息：
 ![](../md_images/create_stream_3.png)
