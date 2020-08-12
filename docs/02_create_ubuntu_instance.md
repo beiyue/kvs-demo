@@ -9,17 +9,17 @@
 实例打Tag，健设置：Name，值设置：sgp-kvs-demo 
 ![](../md_images/create_ec2_1_2.png)
 
-选择EC2类型
+选择ubuntu ami & ec2类型
 ![](../md_images/create_ec2_2.png)
 ![](../md_images/create_ec2_3.png)
 ![](../md_images/create_ec2_4.png)
 
 创建新增密钥对，密钥对名称“sgp-kvs-demo”, 下载密钥对后，启动实例；等待5分钟等待实例初始化完成。
 ![](../md_images/create_ec2_5.png)
+选择弹性IP，点击“分配弹性IP地址”
 ![](../md_images/create_ec2_6.png)
 ![](../md_images/create_ec2_7.png)
 ![](../md_images/create_ec2_8.png)
-选择弹性IP，点击“分配弹性IP地址”
 ![](../md_images/create_ec2_9.png)
 ![](../md_images/create_ec2_10.png)
 ![](../md_images/create_ec2_11.png)
